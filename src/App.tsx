@@ -22,7 +22,7 @@ const App: FC<Props> = () => {
       <Card>
         <CardHeader>
           <CardTitle> 号号🐹</CardTitle>
-          <CardDescription>一只紫仓（ins/tp</CardDescription>
+          <CardDescription>一只紫仓（intp</CardDescription>
         </CardHeader>
         <CardContent>
           <p>生日 2023.10.05</p>
