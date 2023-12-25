@@ -7,6 +7,12 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Badge } from "./components/ui/badge";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "./components/ui/popover";
 
 interface Props {}
 
@@ -23,6 +29,20 @@ const App: FC<Props> = () => {
           <p>性别 弟弟</p>
           <p>星座 天秤座 ⚖️</p>
         </CardContent>
+        <CardFooter>
+          <Popover>
+            <PopoverTrigger>
+              <Badge variant="outline">🦊 @wj</Badge>
+            </PopoverTrigger>
+            <PopoverContent>找我：CowboyBebopSpike-</PopoverContent>
+          </Popover>
+          <Popover>
+            <PopoverTrigger>
+              <Badge variant="outline">@听枫 🍨</Badge>
+            </PopoverTrigger>
+            <PopoverContent>联系我：qtf174</PopoverContent>
+          </Popover>
+        </CardFooter>
       </Card>
     </div>
   );
