@@ -38,7 +38,7 @@ const Haohao = () => {
           <p>性别 爹</p>
           <p>籍贯 上海</p>
           <p>星座 天秤座 ⚖️</p>
-          <p>生日 2023.10.05</p>
+          <p>2023.10.05 - 2023.12.27</p>
         </CardContent>
         <CardFooter>
           <Popover>
