@@ -26,7 +26,7 @@ interface Props {}
 
 const App: FC<Props> = () => {
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center p-10">
+    <div className="flex flex-col min-h-screen items-center justify-center p-10 filter grayscale">
       <Card>
         <CardHeader>
           <div className="bg-[#878F88] w-64 h-36 rounded-lg overflow-hidden mb-4 ">
