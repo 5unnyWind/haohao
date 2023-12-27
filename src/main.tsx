@@ -1,10 +1,22 @@
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import App from './App'
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import App from "./App";
+import Haohao from "./pages/haohao";
 
-const container = document.getElementById('root')
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/haohao",
+    element: <Haohao />,
+  },
+]);
 
-const root = ReactDOM.createRoot(container)
+const container = document.getElementById("root");
 
-root.render(<App />)
+const root = ReactDOM.createRoot(container);
 
+root.render(<RouterProvider router={router} />);
