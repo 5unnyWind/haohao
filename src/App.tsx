@@ -21,12 +21,16 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "./components/ui/carousel";
+import { ModeToggle } from "./components/mode-toggle";
 
 interface Props {}
 
 const App: FC<Props> = () => {
   return (
     <div className="flex flex-col min-h-screen items-center justify-center p-10 filter grayscale">
+      {/* <div className="absolute right-10 top-0">
+        <ModeToggle/>
+      </div> */}
       <Card>
         <CardHeader>
           <div className="bg-[#878F88] w-64 h-36 rounded-lg overflow-hidden mb-4 ">
